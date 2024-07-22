@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  width: 100%;
+  height: 100rem;
+  background-image: repeating-linear-gradient(to right,
+   rgba(255, 182, 193, 0.247),rgba(255, 182, 193, 0.39) 2px, rgba(165, 42, 42, 0.164) 1px, rgba(255, 255, 255, 0.527) 10px);
+}
+
