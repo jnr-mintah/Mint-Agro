@@ -80,7 +80,9 @@
     height: fit-content;
     display: flex;
     align-items: center;
-    /* background-color: red; */
+    background: url(src/components/Navbar/Agro.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .image-card {
@@ -202,6 +204,8 @@
     color: rgb(255, 235, 239);
     
 }
+
+
 
 
 

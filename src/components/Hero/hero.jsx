@@ -1,5 +1,6 @@
 import "../Hero/hero.css";
 import vegetable from "../Hero/a18f079b8c5bf5900447d8fe029fb326-removebg-preview.png"
+import SubscribePage from "../Subscribe/sub";
 
 function Contents() {
   return (
@@ -34,7 +35,7 @@ function Contents() {
         <marquee
           behavior="scroll"
           direction="left"
-          scrollamount="10"
+          scrollamount="7"
           className="images"
         >
           <figure className="image-card"></figure>
@@ -54,6 +55,7 @@ function Contents() {
         </marquee>
       </div>
       <Info />
+      <SubscribePage/>
     </>
   );
 }
