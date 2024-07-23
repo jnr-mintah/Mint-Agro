@@ -110,6 +110,20 @@
     transform: scale(1.1);
 }
 
+.copy{
+  width: 100%;
+  height: 4rem;
+  background-color: #fdcdd5;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2f5350;
+  font-weight: bold;
+}
+
+
+
 
 
 

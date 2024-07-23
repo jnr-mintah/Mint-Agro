@@ -1,6 +1,8 @@
 import "../Hero/hero.css";
-import vegetable from "../Hero/a18f079b8c5bf5900447d8fe029fb326-removebg-preview.png"
+import vegetable from "../Hero/a18f079b8c5bf5900447d8fe029fb326-removebg-preview.png";
 import SubscribePage from "../Subscribe/sub";
+import { FaBalanceScale, FaClock, FaDollarSign, FaGlobe, FaGraduationCap, FaShieldAlt, FaTrophy } from "react-icons/fa";
+import "./hero.css";
 
 function Contents() {
   return (
@@ -55,7 +57,8 @@ function Contents() {
         </marquee>
       </div>
       <Info />
-      <SubscribePage/>
+      <ChooseUs />
+      <SubscribePage />
     </>
   );
 }
@@ -78,14 +81,72 @@ function Info() {
             sustainable future. Our farm is a place where passion for
             agriculture and respect for nature come together, creating a bounty
             of high-quality fruits, vegetables, and grains. Explore our
-            offerings and experience the dedication and care that define MINT-AGRO, where each product tells a story of innovation, quality,
+            offerings and experience the dedication and care that define
+            MINT-AGRO, where each product tells a story of innovation, quality,
             and community.
           </p>
           <figure>
-          <img src={vegetable} alt="" />
+            <img src={vegetable} alt="" />
           </figure>
         </div>
         <button className="read">Discover More</button>
+      </div>
+    </>
+  );
+}
+
+function ChooseUs() {
+  return (
+    <>
+      <h1 className="cho">Why Choose Us</h1>
+      <div className="choose">
+        <div className="first-card">
+          <div>
+            <i className="iconss">
+              <FaTrophy />
+            </i>
+            <h1>Quality</h1>
+          </div>
+
+          <div>
+          <i className="iconss">
+            <FaShieldAlt />
+            </i>
+            <h1>Reliability</h1>
+          </div>
+        </div>
+        <div className="card-image"></div>
+        
+        <div className="second-card">
+          <div>
+            <i className="iconss">
+              <FaDollarSign/>
+            </i>
+            <h1>Affordability</h1>
+          </div>
+
+          <div>
+          <i className="iconss">
+            <FaClock/>
+            </i>
+            <h1>Efficiency</h1>
+          </div>
+        </div>
+        <div className="first-card">
+          <div>
+            <i className="iconss">
+              <FaBalanceScale/>
+            </i>
+            <h1>Integrity</h1>
+          </div>
+
+          <div>
+          <i className="iconss">
+            <FaGraduationCap />
+            </i>
+            <h1>Expertise</h1>
+          </div>
+        </div>
       </div>
     </>
   );

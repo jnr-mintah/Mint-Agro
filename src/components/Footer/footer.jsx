@@ -6,11 +6,12 @@ import {
   FaInstagram,
   FaWhatsapp,
 } from "react-icons/fa";
-import "./footer.css"; // Ensure the CSS file is correctly linked
+import "./footer.css"; 
 
 const Footer = () => {
   return (
-    <div className="foot">
+<>
+<div className="foot">
       <div className="inside">
         <div className="footer-logo">
           {/* Add your logo here */}
@@ -76,6 +77,12 @@ const Footer = () => {
         </div>
       </div>
     </div>
+
+    <div className="copy">
+    <p>© 2024 Mint-Agro. All rights reserved.</p>
+    </div>
+</>
+    
   );
 };
 
