@@ -7,7 +7,9 @@ import "./hero.css";
 function Contents() {
   return (
     <>
-      <div className="work-experience">
+
+    <div className="working">
+            <div className="work-experience">
         <h1>
           <span className="three">30000+</span> <br /> PEOPLE WORKING WITH US
         </h1>
@@ -33,6 +35,8 @@ function Contents() {
           </div>
         </div>
       </div>
+    </div>
+
       <div className="marquee-container">
         <marquee
           behavior="scroll"

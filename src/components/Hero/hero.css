@@ -4,14 +4,25 @@
   border-radius: 100%;
 }
 
+
+.working{
+  width: 100%;
+  height: 100vh;
+}
+
+
 .work-experience {
   width: 80%;
+  height: 100%;
   margin: auto;
   padding-top: 3rem;
   height: max-content;
   /* border: 2px solid ; */
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  /* background-color: black; */
+  height: 100%;
 }
 
 .work-experience h1 {
@@ -24,10 +35,10 @@
 
 .years {
   width: 100;
-  height: 25rem;
+  height: 75vh;
   /* border: 2px solid green; */
   display: flex;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
 }
 
 .red {
